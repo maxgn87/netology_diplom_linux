@@ -150,7 +150,10 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20zabbix%20agent.jpg)
 
 3. Добавляем хосты в сервере Zabbix
-4.![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20zabbix.jpg)   
+![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20zabbix.jpg)   
 
-  
+5. Смотрим миониторинг активности
+   ![первый сервер](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20Server-1.jpg)
+   ![второй сервер](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20Server-2.jpg) 
+
 
