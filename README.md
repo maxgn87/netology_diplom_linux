@@ -116,7 +116,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 2. В целях безопасности создаём авторизованный ключ для сервисного аккаунта и записываем его в файл.
 3. После успешного развертывания через Terraform, проверяем ip адреса, созданных ресурсов, указанных в файле ouput.tf.
 ![адреса из файла output.tf](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/Output.tf.jpg) 
-
+4. Через консоль Яндекс Клауд смотрим список созданных виртуальных машин.
+![список VM на Яндекс клауд](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/Yandex%20Cloud%20VMs.jpg)
+5. Устанавливаем с помощью Ansible nginx на две вирутальные машины, подключаясь через Bastion server
 
 
 
