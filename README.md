@@ -156,4 +156,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![первый сервер](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20Server-1.jpg)
    ![второй сервер](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20Server-2.jpg) 
 
+### Логи
+
 
