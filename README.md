@@ -118,12 +118,12 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 3. После успешного развертывания через Terraform, проверяем ip адреса, созданных ресурсов, указанных в файле ouput.tf.
 ![адреса из файла output.tf](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/Output.tf.jpg) 
 4. Через консоль Яндекс Клауд смотрим список созданных виртуальных машин.
-![список VM на Яндекс клауд](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/Yandex%20Cloud%20VMs.jpg)
+![список VM на Яндекс клауд](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/VM%20Yandex.jpg)
 5. Устанавливаем с помощью Ansible nginx на две вирутальные машины, подключаясь через Bastion server
 ![nginx](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Nginx.jpg)
 6. Проверяем созданные страницы html. Заходим через публичный адрес балансировщика.
-![html]()
-7. Проверка работы сайта - ![]()
+![html](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/HTML.jpg)
+7. Проверка работы сайта - ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20curl.jpg)
 8. Настройка балансировщика и правил для него.
    target group
 
