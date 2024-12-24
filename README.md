@@ -171,7 +171,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    Проверяем службу filebeat на Server 1
    ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/filebeat%20status%20server1.jpg)
 
-На втором сервере служба почему то не запускается. Едентичные по сути VM, но filebeat во втрой не запускается.
+На втором сервере служба почему то не запускается. Едентичные по сути VM, но filebeat во второй не запускается.
 
 4. Проверяем в Kibana, что Filebeat успешно отправляет логи в Elasticsearch :
 
