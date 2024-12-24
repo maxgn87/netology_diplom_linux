@@ -122,8 +122,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 5. Устанавливаем с помощью Ansible nginx на две вирутальные машины, подключаясь через Bastion server
 ![nginx](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Nginx.jpg)
 6. Проверяем созданные страницы html. Заходим через публичный адрес балансировщика.
-![html](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20HTML.jpg)
-7. Проверка работы сайта - ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D1%82%D0%B5%D1%81%D1%82%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0.jpg)
+![html](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20HTML.jpg)
+7. Проверка работы сайта - ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20curl.jpg)
 8. Настройка балансировщика и правил для него.
    target group
 
