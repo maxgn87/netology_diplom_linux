@@ -157,5 +157,12 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![второй сервер](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20Server-2.jpg) 
 
 ### Логи
+1. Установка elasticsearch
+   ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Elasticsearch.jpg)
+2. Устанавливаем Kibana
+   ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Kibana.jpg)
+
+   
+   
 
 
