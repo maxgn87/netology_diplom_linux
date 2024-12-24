@@ -137,7 +137,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/http_router.jpg)
 
    созданный load balancer
-   ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%20load_balancer.jpg)
+   ![](https://github.com/maxgn87/netology_diplom_linux/blob/main/img/load_balancer.jpg)
 
 ### Мониторинг
 1. Установка сервера Zabbix.
