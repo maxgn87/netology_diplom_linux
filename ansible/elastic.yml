@@ -1,0 +1,26 @@
+---
+- name: Установка Elastic
+  hosts: elastic_srv
+  become: yes
+  gather_facts: true
+
+  tasks:
+  - name: Установка elasticsearch
+    apt:
+      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/e/elasticsearch/elasticsearch-7.15.1-amd64.deb"
+
+
+  - name: Копируем конфигурационный файл elasticsearch
+    copy:
+      src: /home/max/.terraform.d/ansible/config/elastic_conf.yml
+      dest: /etc/elasticsearch/elasticsearch.yml
+
+  - name: daemon_reload
+    systemd:
+      daemon_reload: true
+
+  - name: Перезапуск elasticsearch и добавление его в автозагрузку
+    service:
+      name: elasticsearch
+      state: restarted
+      enabled: yes

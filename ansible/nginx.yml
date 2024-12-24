@@ -1,0 +1,35 @@
+---
+- name: Установка Nginx
+  hosts: web-servers
+  become: yes
+
+  tasks:
+
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: latest
+        update_cache: yes
+    
+    - name: Запуск Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+    
+    - name: Создание HTML
+      copy:
+        src: /home/max/.terraform.d/nginx/index.html
+        dest: /var/www/html/index.html
+        owner: www-data
+        group: www-data
+
+      notify:
+        - Restart Nginx
+
+  handlers:
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+

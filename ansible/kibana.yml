@@ -1,0 +1,27 @@
+---
+- name: Установка Kibana
+  hosts: kibana_srv
+  become: yes
+  vars:
+    elastic_httphost: 172.16.3.4:9200
+  tasks:
+
+  - name: Установка kibana из репозитория
+    apt:
+      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/k/kibana/kibana-7.15.1-amd64.deb"
+      
+
+  - name: Копируем конфигурационный файл kibana
+    template:
+      src: /home/max/.terraform.d/ansible/config/kibana.j2
+      dest: /etc/kibana/kibana.yml
+
+  - name: daemon_reload
+    systemd:
+      daemon_reload: true
+
+  - name:  Перезапуск и добавление в автозагрузку
+    service:
+      name: kibana
+      state: restarted
+      enabled: yes
